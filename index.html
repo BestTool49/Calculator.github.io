@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DatingAgeCalculator</title>
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  
+    <head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Concert One">
+<style>
+body {
+  font-family: "Concert One", sans-serif;
+  font-size: 15px;
+  
+}
+</style>
+</head>
+  
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="nav-wrapper gradient-bg container">
+                <a href="index.html" class="brand-logo">DatingAgeCalculator</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#">Home</a></li>
+					<li><a href="about.html">About</a></li>
+                    
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="terms.html">Terms</a></li>
+					<li><a href="dmca.html">Dmca</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <div class="container">
+        <div class="card">
+            <h4 class="center-align">Unlock the Perfect Match: Try This Dating Age Calculator Now!</h4>
+            <p class="center-align">Curious if you're dating within the ideal age range? Unlock the secret to finding your perfect match with this easy *Dating Age Calculator*! In just a few clicks, discover the best age range for your relationships and take the guesswork out of dating. Try it now and find your match!</p>
+
+            <div class="input-field">
+                <input id="name" type="text" class="validate">
+                <label for="name">Enter your name</label>
+            </div>
+
+            <div class="input-field">
+                <input id="age" type="number" min="14" class="validate">
+                <label for="age">Enter your age</label>
+            </div>
+
+            <div class="input-field">
+                <input id="partnerName" type="text" class="validate">
+                <label for="partnerName">Enter your partner's name</label>
+            </div>
+
+            <div class="input-field">
+                <input id="partnerAge" type="number" min="14" class="validate">
+                <label for="partnerAge">Enter your partner's age</label>
+              
+
+              </div>
+
+            <div class="center-align">
+                <button class="btn waves-effect waves-light" onclick="calculateDatingRange()">Calculate</button>
+              <button class="btn red waves-effect waves-light" onclick="clearMessage()">Clear Message</button>
+            </div>
+            
+
+            <div id="result" class="center-align">
+                <h5 id="message"></h5>
+                <p id="range"></p>
+                <div id="share-buttons">
+                    <!-- Share buttons will be added dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	<div class="container">
+        <h4>The Ultimate Guide to the Dating Age Calculator: Find Your Perfect Match</h4>
+        <p>Modern dating is a strange beast, and in our youth-obsessed world, age can be a poor step-sibling of compatibility. 
+		<br>Or if you are thinking of a partner who does not belong to your previous age, then you can use a dating age calculator to tally out. 
+		<br>This nifty little tool picks up on the well-worn formula of "half your age plus seven" to provide a recommended age range for dating people.</p>
+    </div>
+	
+	<div class="container">
+        <h4>What is a Dating Age Calculator?</h4>
+        <p>This tool helps you discover your ideal dating age range based on the widely known 'Half Your Age Plus Seven' rule. 
+		<br>It's a fun and insightful way to explore age-appropriate relationships!The dating age calculator is a virtual age calculation tool that calculates the minimum stuff that you need for dating outside your age group. 
+		<br>The formula people use to gauge if someone is "too young" or "too old" for them provides a useful map to navigate relationships and age differences. 
+		<br>For instance, if you are 30- years old, the calculator states that anyone between 22 and 46 is a good catch. 
+		<br>And that's where this tool comes into play - helping more than just amusement but as a starting point intended for anyone new to the field of romance.
+	
+	<div class="container">
+        <h4>How Does It Work?</h4>
+        <p>The calculation consists of a simple formula dating age calculator working inwestern society.</p>
+
+<br><b>Minimum Age: (Your Age / 2) +7<br>
+
+House of industry: Potential Age: ((your age / 2) + 7).</b>
+
+<p>This equation provides a shortcut to solving for the age of people you can date across various ages compared to a society at large. That said, it is worth mentioning that relationships are complicated and a myriad of things come into play in determining compatibility beyond age.</p>
+    </div>
+	
+	<div class="container">
+        <h4>Why Use a Dating Age Calculator?</h4>
+        <p><b>Guideline:</b> The dating age calculator is a straightforward way of coming up with a rule for your own age in relationships.</p>
+		<p><b>Confidence:</b> Confidence is key while dating, knowing the right age range can aid in giving you the confidence to approach would be suitors.</p>
+		<p><b>Dicovery:</b> It makes user explore the partener which they haven't thinked of and hence it opens their dating gateways.</p>
+    </div>
+	
+	
+        <h4>Considerations Beyond Age</h4>
+        <p>Alternatives to the Dating Age Calculator In addition to showing the age, this app size highlights whether or not the meaning is legal for tons of inspection purposes. 
+		<br>Similarly so are personal interests... life experience... emotional maturity. When searching for partners, mince no words in creating quality relationships.</p>
+    </div>
+	
+	<div class="container">
+        <h4>Conclusion</h4>
+        <p>A dating age calculator is a staple in anyone's dating arsenal. If you want to know about age differences, or if you are in search for advice on what is the right person so that he meets all stereotypes and fold his life around finger, this Ultimate Love Calculator will help you with complicate spells. 
+		<br>Yes, age might play a part in relationships, but the real connections come from shared values and interests, because they practice emotional compatibility.</p>
+		<p>So why wait? Get your perfectly matched with online dating age calculator today!</p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer gradient-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Dating Age Calculator</h5>
+                    <p class="grey-text text-lighten-4">Find out if you're within the ideal dating age range!</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#">Home</a></li>
+						<li><a class="grey-text text-lighten-3" href="about.html">About</a></li>
+                        
+                        <li><a class="grey-text text-lighten-3" href="contact.html">Contact</a></li>
+                        <li><a class="grey-text text-lighten-3" href="terms.html">Terms</a></li>
+						<li><a class="grey-text text-lighten-3" href="dmca.html">Dmca</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+		
+		
+		
+        <div class="footer-copyright">
+            <div class="container">
+                © 2024 Dating Age Calculator
+            </div>
+        </div>
+    </footer>
+
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

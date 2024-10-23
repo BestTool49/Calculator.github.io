@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Dating Age Calculator</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper container">
+                <a href="index.html" class="brand-logo">Dating Age Calculator</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Privacy.html">Privacy</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="terms.html">Terms & DMCA</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h4>Privacy Policy</h4>
+        <p>
+
+Dating Age Calculator is committed to maintaining your privacy. We take extra pre-caution to protect your personal data ensuring your experience is both safe and pleasurable. If you use our calculator then we may collect some data, like your age and the age of potential partners. This data is only used for the purpose of delivering more accurate results to you. We do not sell, trade or otherwise transfer your personal information to outside parties without your permission. 
+<br>We take steps to ensure that your information is treated securely and in accordance with this Privacy Policy and applicable privacy laws. 
+<br>If you consent to the use of your data, then please read on! Questions about our privacy practices or this Privacy Policy should be directed through email or by post to Community Initiatives, 354 Pine Street Suite 700, San Francisco CA 94104</p>
+    </div>
+
+    <footer class="page-footer">
+        <!-- Footer content (same as index.html) -->
+    </footer>
+</body>
